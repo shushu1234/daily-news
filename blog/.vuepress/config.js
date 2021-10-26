@@ -4,7 +4,7 @@ const sidebar=require('./config/sidebar')
 const friendLink=require('./config/friends')
 
 module.exports = {
-    title: 'Kim\'s Blog',
+    title: 'LiuYao Daily News',
     base: process.env.BASE_BLOG,
     description: "做技术与艺术的创新者!",
     port: 2233,
@@ -22,10 +22,10 @@ module.exports = {
     },
     themeConfig: {
         type: 'blog',
-        author: "Kim Yang",
+        author: "Liu Yao",
         logo: '/favicon.ico',
         mode: 'dark', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
-        startYear: 2019,
+        startYear: 2021,
          // 备案
         record: '蜀ICP备2021014312号',
         recordLink: 'https://icp.chinaz.com/home/info?host=kimyang.cn',
@@ -53,12 +53,12 @@ module.exports = {
                 text: '归档' // 默认文案 “分类”
             },
             socialLinks: [     // 信息栏展示社交账号
-                { link: 'mailto:Kim.Yang.HG@outlook.com', icon: 'reco-mail' },
-                { link: 'https://github.com/KimYangOfCat', icon: 'reco-github' },
-                { link: 'https://mp.weixin.qq.com/s/kSfjVbzlP46oB-Ux-MPWzA', icon: 'reco-wechat' },
-                { link: 'https://space.bilibili.com/240836280', icon: 'reco-bilibili' },
-                { link: 'https://www.zhihu.com/people/kim_yang', icon: 'reco-zhihu' },
-                { link: 'https://weibo.com/6373489690/profile?topnav=1&wvr=6&is_all=1', icon: 'reco-weibo' },
+                // { link: 'mailto:Kim.Yang.HG@outlook.com', icon: 'reco-mail' },
+                // { link: 'https://github.com/KimYangOfCat', icon: 'reco-github' },
+                // { link: 'https://mp.weixin.qq.com/s/kSfjVbzlP46oB-Ux-MPWzA', icon: 'reco-wechat' },
+                // { link: 'https://space.bilibili.com/240836280', icon: 'reco-bilibili' },
+                // { link: 'https://www.zhihu.com/people/kim_yang', icon: 'reco-zhihu' },
+                // { link: 'https://weibo.com/6373489690/profile?topnav=1&wvr=6&is_all=1', icon: 'reco-weibo' },
                 // { link: 'https://me.csdn.net/weixin_43316691', icon: 'reco-csdn' },
             ]
         },

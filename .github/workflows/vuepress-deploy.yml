@@ -1,25 +1,20 @@
-name: vuepress-deploy
-
+name: GitHub Actions blog
 on:
   push:
-    branches: [master]
-  pull_request:
-    branches: [master]
-
+    branches:
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@master
-        with:
-          ssh-key: ${{ secrets.SSH }}
-          submodules: true
-      - name: vuepress-deploy
-        uses: jenkey2011/vuepress-deploy@master
+
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@master
         env:
-          ACCESS_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-          TARGET_REPO: KimYangOfCat/Blog
-          TARGET_BRANCH: gh-pages
-          BUILD_SCRIPT: yarn && export BASE_BLOG=/Blog/&& yarn build
-          BUILD_DIR: blog/.vuepress/dist/
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: .vuepress/dist
+          BUILD_SCRIPT: npm install && npm run build
+
