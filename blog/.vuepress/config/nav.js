@@ -19,7 +19,7 @@ module.exports=[
     //         { text: 'RSS', link: 'https://kimyang.cn/rss.xml', icon: 'reco-rss' },
     //     ], icon: 'reco-category'
     // },
-    // { text: '标签', link: '/tag/', icon: 'reco-tag' },
-    // { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-    // { text: 'RSS', link: 'https://kimyang.cn/rss.xml', icon: 'reco-rss' },
+    { text: '标签', link: '/tag/', icon: 'reco-tag' },
+    { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+    { text: 'RSS', link: 'https://shushu123.github.io/daily-news/rss.xml', icon: 'reco-rss' },
 ]

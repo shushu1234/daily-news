@@ -6,7 +6,7 @@ const friendLink=require('./config/friends')
 module.exports = {
     title: 'LiuYao Daily News',
     base: process.env.BASE_BLOG,
-    description: "做技术与艺术的创新者!",
+    description: "每日新闻!",
     port: 2233,
     head: [
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
@@ -44,7 +44,7 @@ module.exports = {
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
         // 默认为 "Edit this page"
-        editLinkText: '发现错误？欢迎斧正',
+        // editLinkText: '发现错误？欢迎斧正',
         subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
         // 博客配置
         blogConfig: {
