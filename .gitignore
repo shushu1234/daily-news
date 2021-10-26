@@ -188,3 +188,7 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/go,hugo,macos,windows,webstorm,visualstudiocode
 
 package-lock.json
+
+YouTube.out
+YouTube.py
+youtube.sh
