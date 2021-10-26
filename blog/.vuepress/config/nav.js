@@ -21,5 +21,5 @@ module.exports=[
     // },
     { text: '标签', link: '/tag/', icon: 'reco-tag' },
     { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-    { text: 'RSS', link: 'https://shushu123.github.io/daily-news/rss.xml', icon: 'reco-rss' },
+    { text: 'RSS', link: 'https://shushu1234.github.io/daily-news/rss.xml', icon: 'reco-rss' },
 ]
