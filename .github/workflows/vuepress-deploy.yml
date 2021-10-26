@@ -43,7 +43,7 @@ jobs:
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
         uses: jenkey2011/vuepress-deploy@master
-        with:
+        env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: shushu1234/daily-news
           TARGET_BRANCH: gh-pages
