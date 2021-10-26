@@ -22,7 +22,7 @@ module.exports = {
     },
     themeConfig: {
         type: 'blog',
-        author: "Liu Yao",
+        author: "LiuYao",
         logo: '/favicon.ico',
         mode: 'dark', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
         startYear: 2021,
@@ -36,7 +36,7 @@ module.exports = {
         nextLinks: true,
         prevLinks: true,
         // 假如你的文档仓库和项目本身不在一个仓库：
-        docsRepo: 'KimYangOfCat/Blog',
+        docsRepo: 'shushu1234/daily-news',
         // 假如文档不是放在仓库的根目录下：
         docsDir: 'blog',
         // 假如文档放在一个特定的分支下：
@@ -63,14 +63,14 @@ module.exports = {
             ]
         },
         //Comments
-        valineConfig: {
-            appId: 'jKwH5EJyUIoKLdDddNDTUueK-gzGzoHsz',// your appId
-            appKey: 'v7DTuoMTFCv63zxKtkYMUFp8', // your appKey
-            placeholder: '填写邮箱可以收到回复哦!',
-            notify: true, // 邮件提醒
-            verify: true, // 验证码
-            recordIP: true
-        },
+        // valineConfig: {
+        //     appId: 'jKwH5EJyUIoKLdDddNDTUueK-gzGzoHsz',// your appId
+        //     appKey: 'v7DTuoMTFCv63zxKtkYMUFp8', // your appKey
+        //     placeholder: '填写邮箱可以收到回复哦!',
+        //     notify: true, // 邮件提醒
+        //     verify: true, // 验证码
+        //     recordIP: true
+        // },
   
          //config 目录
         nav,
