@@ -47,7 +47,7 @@ module.exports=[
     // }],
     ['@vuepress-reco/vuepress-plugin-rss', {
         //RSS
-        site_url: "https://kimyang.cn"
+        site_url: "https://shushu1234.github.io/daily-news"
     }],
     // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
     //     width: '300px', // 默认 260px
